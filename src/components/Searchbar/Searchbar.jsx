@@ -11,12 +11,12 @@ import {
 } from '../Searchbar/Searchbar.styled';
 
 export const Searchbar = ({ onSubmit }) => {
-  const handleSubmit = async (values, actions) => {
-    await onSubmit(values, 1);
-    actions.setSubmitting(false);
-    actions.resetForm();
-    console.log(values);
-  };
+  // const handleSubmit = async (values, actions) => {
+  //   await onSubmit(values, 1);
+  //   actions.setSubmitting(false);
+  //   actions.resetForm();
+  //   console.log(values);
+  // };
 
   return (
     <Header className="searchbar">

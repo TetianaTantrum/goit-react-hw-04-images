@@ -29,7 +29,7 @@ const ImageGallery = ({ page, images, query, setImages }) => {
     };
 
     fetchData();
-  }, [page, query]);
+  }, [error, page, query, setImages]);
 
   // if (page !== 1 && images.length === 0) {
   //   return toast(`Sorry, there are no more images! `);
