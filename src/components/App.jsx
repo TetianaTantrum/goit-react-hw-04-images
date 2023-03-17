@@ -36,7 +36,7 @@ export default function App() {
         handleLoadMore={newImages => handleLoadMore(newImages)}
         setImages={setImages}
       />
-      {images.length > 0 && <Button onClick={onLoadMore} />}
+      {images?.length > 0 && <Button onClick={onLoadMore} />}
     </AppStyle>
   );
 }
