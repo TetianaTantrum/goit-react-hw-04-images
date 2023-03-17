@@ -7,7 +7,7 @@ export const addImage = async (searchQuery, page) => {
     if (searchQuery.trim() === '') {
       return new Error();
     }
-    const BASE_URL = 'https://pixabay.com/api';
+    const BASE_URL = 'https://pixabay.com/api/';
     const API_KEY = '32827744-052546b65c11463fcf8d3310a';
     const {
       data: { hits },
