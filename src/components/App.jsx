@@ -20,7 +20,7 @@ export default function App() {
     setPage(prevPage => prevPage + 1);
   };
   const handleLoadMore = newImages => {
-    if (newImages?.length) {
+    if (newImages) {
       setImages(prevImages => [...prevImages, ...newImages]);
     }
   };
