@@ -35,7 +35,7 @@ const ImageGallery = ({ page, images, query, setImages }) => {
   //   return toast(`Sorry, there are no more images! `);
   // }
 
-  if (images.length > 0) {
+  if (images?.length > 0) {
     return (
       <div>
         <ImageGalleryStyles>
